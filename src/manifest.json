@@ -1,0 +1,14 @@
+{
+  "name": "PREDUX",
+  "short_name": "PREDUX",
+  "description": "PREDUX",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "icons": [{
+    "src": "/assets/icons/icons.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }]
+}

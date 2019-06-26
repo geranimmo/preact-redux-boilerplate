@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id" xml:lang="id" xmlns="https://www.w3.org/1999/xhtml">
+	<head profile="https://www.w3.org/2005/10/profile">
+		<% for (var chunk in htmlWebpackPlugin.files.css) { %>
+			<link rel="prefetch" href="<%= htmlWebpackPlugin.files.css[chunk] %>" as="style">
+		<% } %>
+		<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+			<link rel="prefetch" href="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>" as="script">
+		<% } %>
+		<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=1"/>
+		<title>PreactJS with Redux Project Starter</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+        <meta name="author" content="Riky">
+		<link rel="manifest" href="./manifest.json">
+		<base href="/">
+		<noscript>
+			This site requires Javascript. Please enable Javascript in your browser for this site.
+		</noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" crossorigin>
+	</head>
+	<body itemscope itemtype="http://schema.org/WebPage"></body>
+</html>

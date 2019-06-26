@@ -1,0 +1,21 @@
+User-agent: Googlebot
+Disallow: /error
+Disallow: /unregistered
+Disallow: /unverified
+Disallow: /request
+Disallow: /forget
+Disallow: /change
+Disallow: /history
+Disallow: /wallet
+Disallow: /wallet-detail/
+
+User-agent: Googlebot-Mobile
+Disallow: /error
+Disallow: /unregistered
+Disallow: /unverified
+Disallow: /request
+Disallow: /forget
+Disallow: /change
+Disallow: /history
+Disallow: /wallet
+Disallow: /wallet-detail/
